@@ -90,7 +90,7 @@ class _PerfumeRecommendPageState extends State<PerfumeRecommendPage> {
           child: Column(
             children: [
               buttony(recommendations: recommendations),
-              Text("النوع (رجالي \ حريمي)"),
+              Text("النوع (رجالي      \      حريمي)"),
               Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
