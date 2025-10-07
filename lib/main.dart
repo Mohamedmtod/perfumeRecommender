@@ -28,7 +28,7 @@ class _PerfumeRecommendPageState extends State<PerfumeRecommendPage> {
   final Dio api = Dio(
     BaseOptions(
       baseUrl:
-          "http://192.168.1.9:5000", // ✅ غيّر الـ IP لو السيرفر على جهاز تاني
+          "https://web-production-bb6d7.up.railway.app/", // ✅ غيّر الـ IP لو السيرفر على جهاز تاني
       connectTimeout: const Duration(seconds: 10),
       receiveTimeout: const Duration(seconds: 10),
       headers: {"Content-Type": "application/json"},
